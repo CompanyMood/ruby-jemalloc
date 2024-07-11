@@ -10,8 +10,8 @@ RUN set -eux; \
 
 ENV LANG C.UTF-8
 ENV RUBY_MAJOR 3.3
-ENV RUBY_VERSION 3.3.3
-ENV RUBY_DOWNLOAD_SHA256 83c0995388399c9555bad87e70af069755b5a9d84bbaa74aa22d1e37ff70fc1e
+ENV RUBY_VERSION 3.3.4
+ENV RUBY_DOWNLOAD_SHA256 1caaee9a5a6befef54bab67da68ace8d985e4fb59cd17ce23c28d9ab04f4ddad
 
 # some of ruby's build scripts are written in ruby
 #   we purge system ruby later to make sure our final image uses what we just built
